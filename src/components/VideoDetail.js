@@ -1,10 +1,10 @@
 import React from 'react';
 import {Paper, Typography} from '@material-ui/core';
-import Spinner from './Spinner/Spinner';
+// import Spinner from './Spinner/Spinner';
 
 
 const VideoDetail = ({video}) => {
-	if(!video) return (<Spinner />)
+	if(!video) return <div> Loading ...</div>
 
 
 	const videoSrc = `https://www.youtube.com/embed/${video.id.videoId}`
