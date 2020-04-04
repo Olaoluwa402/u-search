@@ -1,0 +1,14 @@
+.video-items{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+}
+
+
+
+@media (max-width: 576px) {
+      .video-items{
+		display: flex;
+		flex-direction: column;
+	}
+}
